@@ -1,3 +1,4 @@
+/* Math ref
 function Math () {
   this.add = function (x, y) {
     return x+y;
@@ -11,6 +12,7 @@ function Math () {
     return result;
   }
 }
+*/
 
 function BmiCalculator () {
   this.weight = 0;
