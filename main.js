@@ -54,7 +54,7 @@ function BmiCalculator () {
   };
 }
 
-/*html
+/*html*/
 var calc_btn = document.getElementById('calc');
 calc_btn.addEventListener('click', function () {
   var weight = parseFloat(document.getElementById('weight').value);
@@ -71,4 +71,4 @@ calc_btn.addEventListener('click', function () {
   document.getElementById('output_bmi')
     .innerHTML = bmiCalculator.calculate();
 });
-*/
+
