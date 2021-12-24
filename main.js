@@ -1,8 +1,12 @@
-/* Math ref
+
 function Math () {
+  
+  /* Math ref
   this.add = function (x, y) {
     return x+y;
   }
+  */
+  
   this.power = function (x, y) {
     if (y < 0) return 0;
     var result = 1;
@@ -12,7 +16,7 @@ function Math () {
     return result;
   }
 }
-*/
+
 
 function BmiCalculator () {
   this.weight = 0;
